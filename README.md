@@ -12,14 +12,14 @@ To install `aiohttp` just run the following command using your terminal session:
 
 `pip install -e .`
 
-and Python pick up data from `requirements.txt` file and install `aiohttp`.
+and this command picks up data from `requirements.txt` file and install `aiohttp` into environment where you're in.
 
 #### HOW TO RUN
 
 - `cd` to a folder where you downloaded this repository;
 - make sure you have internet connection established;
-- run `app.py`.
+- run `app.py` typing `$./app.py` from repository folder.
 
-You do not need to care about database setup, as this project uses lightweight built-in `sqlite` datebase.
+You do not need to care about database setup, as this project uses lightweight built-in `sqlite3` datebase.
 
 Enjoy!
